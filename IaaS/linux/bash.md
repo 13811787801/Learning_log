@@ -6,7 +6,7 @@ bash 是 Linux预设的 shell 库
 ## Bash 提供的功能
 ### 历史命令行  (History)
 bash提供了记录使用过的指令，通过上下键，可以找到执行过的命令  
-记录在 *～/.bash_history* 如下图
+记录在 ～/.bash_history* 如下图
 
 ![](https://user-gold-cdn.xitu.io/2019/10/3/16d8fdca982cbecd?w=1060&h=714&f=png&s=201552)
 

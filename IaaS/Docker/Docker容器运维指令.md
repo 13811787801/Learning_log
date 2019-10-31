@@ -13,3 +13,8 @@ docker container stats [OPTIONS] [CONTAINER...]
 | `NET I/O`                 | The amount of data the container has sent and received over its network interface |
 | `BLOCK I/O`               | The amount of data the container has read to and written from block devices on the host |
 | `PIDs`                    | the number of processes or threads the container has created |
+
+
+### Docker inspect [CONTAINERID] 
+获取容器/镜像的元数据
+
