@@ -34,6 +34,5 @@ output.elasticsearch:
 # 这句话让我们在控制台循环打印
 docker run busybox sh -c 'while true;do echo "This test Docker Log by kibana";sleep 10;done;'
 ```
-
-
+查询
 ![](https://user-gold-cdn.xitu.io/2019/10/31/16e2088adf6ada6a?w=1377&h=590&f=png&s=158409)

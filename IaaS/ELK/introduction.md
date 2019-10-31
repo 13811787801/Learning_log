@@ -18,7 +18,8 @@ Kibana：负责日志的可视化(Web界面)
 docker pull sebp/elk  
 # 部署
 docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -itd -e ES_HEAP_SIZE="2g" -e LS_HEAP_SIZE="1g" --name elk sebp/elk 
-## 资源运行的话不要修改默认的大小
+
+## 资源允许的话不要修改默认的大小
 docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -itd  --name elk sebp/elk 
 ```
 > #  5601 代表kibana端口 5044代表Logstash 9200代表ES
