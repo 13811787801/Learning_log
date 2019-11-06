@@ -14,7 +14,6 @@ docker container stats [OPTIONS] [CONTAINER...]
 | `BLOCK I/O`               | The amount of data the container has read to and written from block devices on the host |
 | `PIDs`                    | the number of processes or threads the container has created |
 
-
 ### Docker inspect [CONTAINERID] 
-获取容器/镜像的元数据
 
+获取容器/镜像的元数据
