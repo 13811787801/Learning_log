@@ -79,6 +79,4 @@ output{
         stdout{codec => rubydebug}
 }
 
-
-
 ```
