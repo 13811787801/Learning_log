@@ -10,12 +10,17 @@ For --> benefit = good
 
 1. I made this lesson (?) you. **for**
 
-2. I gave the beer (?) you.  **to** 
+2. I gave the beer (?) you.  **to**    
+    exchange beer
 
-3. I'm going to talk (?) you. **to** 
+3. I'm going to talk (?) you. **to**   
+    Exchange info
+
+
 
 4. I will do that (?) you. **for** 
 
 5. I sing (?) you. **to** X  true:for
 
-6. I go (?) school. **to**
+6. I go (?) school. **to**   
+    transfer body
