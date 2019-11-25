@@ -51,8 +51,13 @@ A JVM stack is composed of frames, each pushed onto the stack when a method is i
 2. An operand stack used to store intermediate values that would act as operands for instructions, or to push arguments to method invocations.
 > 一个操作数堆栈用于存储指令的操作数 或 将推送参数到方法调用
 
-
 ![img](https://user-gold-cdn.xitu.io/2019/11/22/16e91b16de499d5b?w=923&h=375&f=png&s=27032)
+
+
+
+
+
+
 
 ## Bytecode Expolored
 
