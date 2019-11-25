@@ -16,8 +16,6 @@ For --> benefit = good
 3. I'm going to talk (?) you. **to**   
     Exchange info
 
-
-
 4. I will do that (?) you. **for** 
 
 5. I sing (?) you. **to** X  true:for

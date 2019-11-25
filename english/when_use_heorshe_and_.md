@@ -23,7 +23,6 @@ subject + **verb** (+ noun)  *ps: must follow by a verb.*
 
 pronoun.
 
-
 Her / His + **noun** + verb.
 
 #### Example
@@ -35,7 +34,11 @@ His chicken
 His dog is cute.
 
 
+## Summary
 
+he / she plus verb. 
+
+her/his plus noun.
 
 
 
