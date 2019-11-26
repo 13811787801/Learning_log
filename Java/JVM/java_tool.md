@@ -24,5 +24,14 @@ This option Prints additional information like stack size, number of locals and 
 + jmap -heap pid 根据进程号打印进行堆信息
 
 
++ jmap -histo:live `pid` 
+打印占用信息，实例数，类
+
++ jmap -dump:live,format=b,file=xxx.dump `pid`
+根据进程号获取快照信息，使用MAT排查，优化
+
+
 ## jstack
+
+打印Java线程的Java堆栈跟踪
 
