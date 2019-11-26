@@ -10,4 +10,8 @@
 
 [Linux 的 OOM Killer 机制分析](senlinzhan.github.io/2017/07/03/oom-killer/)
 
-[Oracle WebLogic Server 10.3.6的融合中间件性能和调优:Tuning Java Virtual Machines](https://docs.oracle.com/middleware/11119/wls/PERFM/jvm_tuning.htm#i1140924)
+[Tuning Java Virtual Machines](https://docs.oracle.com/middleware/11119/wls/PERFM/jvm_tuning.htm#i1140924)
+
+[Spring Boot 内存性能](https://spring.io/blog/2015/12/10/spring-boot-memory-performance)
+
+[spring boot嵌入式servlet容器性能对比](https://rainplus.xyz/spring%20boot/2017/11/10/Spring-Boot-Embedded-Servlet-Containers/)

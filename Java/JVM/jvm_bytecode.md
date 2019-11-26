@@ -53,16 +53,7 @@ A JVM stack is composed of frames, each pushed onto the stack when a method is i
 
 ![img](https://user-gold-cdn.xitu.io/2019/11/22/16e91b16de499d5b?w=923&h=375&f=png&s=27032)
 
-
-
-
-
-
-
 ## Bytecode Expolored
-
-
-
 
 ## Refrences
 
