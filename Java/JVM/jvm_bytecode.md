@@ -30,30 +30,33 @@ The data types defined by the JVM are:
 
 ![JVM_stack](https://user-gold-cdn.xitu.io/2019/11/22/16e919a00a3ac729?w=169&h=220&f=png&s=1854)
 
-
 **Heap**: memory shared by all threads and storing objects (class instances and arrays). Object deallocation is managed by a garbage collector.
 > 所有线程内存共享(公共区),存储对象(类实例和数组),对象释放管理是通过垃圾回收
 
 ![Heap](https://user-gold-cdn.xitu.io/2019/11/22/16e919bf184e55a2?w=163&h=130&f=png&s=1496)
 
 **Method area**: for each loaded class, it stores the code of methods and a table of symbols (e.g. references to fields or methods) and constants known as the constant pool.
-> 对所有已加载的类，存储 方法的代码和符号表(ps:说是对字段和方法的引用) 和被称为常量池的常量
+> 对所有已加载的类，存储方法的代码和符号表(ps:说是对字段和方法的引用) 和被称为常量池的常量
 
 ![Method_area](https://user-gold-cdn.xitu.io/2019/11/22/16e91af6a6b43bd4?w=369&h=307&f=png&s=25750)
 
 A JVM stack is composed of frames, each pushed onto the stack when a method is invoked and popped from the stack when the method completes (either by returning normally or by throwing an exception). Each frame further consists of:
+> JVM 堆栈由帧组成，当一个方法被调用时，会推送帧到堆栈中，当方法执行完成，会从堆栈中推出(正常返回或是抛出异常)。帧包含了:
 
-1. An array of local variables, indexed from 0 to its length minus 1. The length is computed by the compiler. A local variable can hold a value of any type, except long and double values, which occupy two local variables.  
+1. An array of local variables, indexed from 0 to its length minus 1. The length is computed by the compiler. A local variable can hold a value of any type, except long and double values, which occupy two local variables.
+
 > 一个局部数组，索引是从0到长度-1.这个长度通过计算编译。
 > 局部变量可以存储任何类型的值，除了`long`和`double`，因为他们需要两个局部变量
 
-
 2. An operand stack used to store intermediate values that would act as operands for instructions, or to push arguments to method invocations.
+
 > 一个操作数堆栈用于存储指令的操作数 或 将推送参数到方法调用
 
 ![img](https://user-gold-cdn.xitu.io/2019/11/22/16e91b16de499d5b?w=923&h=375&f=png&s=27032)
 
 ## Bytecode Expolored
+
+下面是一系列关于字节码的实践，讲述了每个操作码都有什么意义
 
 ## Refrences
 
