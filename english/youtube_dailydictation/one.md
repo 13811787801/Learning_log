@@ -1,6 +1,6 @@
 # One
 
-> Mother Teresa, Who received a Nobel peace Prize for her work on behalf of the poor ,dies in CalcuHa,India -- she was 87 years old.
+> Mother Teresa, Who received a Nobel peace Prize for her work on behalf of the poor ,dies(died) in CalcuHa,India -- she was 87 years old.
 
 on behalf of --> for
 
