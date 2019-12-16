@@ -36,7 +36,7 @@ The data types defined by the JVM are:
 ![Heap](https://user-gold-cdn.xitu.io/2019/11/22/16e919bf184e55a2?w=163&h=130&f=png&s=1496)
 
 **Method area**: for each loaded class, it stores the code of methods and a table of symbols (e.g. references to fields or methods) and constants known as the constant pool.
-> 对所有已加载的类，存储方法的代码和符号表(ps:说是对字段和方法的引用) 和被称为常量池的常量
+> 对所有已加载的类，存储方法的代码和符号表(ps:说是对字段和方法的引用) 和被称为常量池的常量,下图展示了程序运行时常量池都能放了什么
 
 ![Method_area](https://user-gold-cdn.xitu.io/2019/11/22/16e91af6a6b43bd4?w=369&h=307&f=png&s=25750)
 
@@ -88,11 +88,11 @@ public static void main(String[] args) {
          8: return
 ```
 
-+ iconst: 加载int类型到Operand stack
++ iconst: 加载int类型到 `operand stack`
 
-+ istore: 存储int类型到 stack 中的局部变量数组
++ istore: 存储int类型到 `jvm stack` 中的 `array of local variables`
 
-+ iload: 从局部变量数组中加载值到 operand stack
++ iload: 从局部变量数组中加载值到 `operand Stack`
 
 + iadd: int类型的相加指令
 
@@ -166,7 +166,7 @@ public static void main(java.lang.String[]);
 
 + new 创建对象-在堆中分配内存，在堆栈中传递引用(对象的引用被压入堆栈中)
 
-+ dup 复制 operand stack 顶部的 value,(一般跟在new命令后，复制对象的引用)
++ dup 复制 `operand stack` 顶部的值,(一般跟在new命令后，复制对象2的引用)
 
 > invokespecial 会消费一个对象的引用，所以需要复制保证堆栈中还能Point对象的引用
 
@@ -180,4 +180,6 @@ public static void main(java.lang.String[]);
 
 ## Refrences
 
-[Introduction to Java ByteCode](https://dzone.com/articles/introduction-to-java-bytecode) 左耳朵耗子课程推荐
+[Dzone:Introduction to Java ByteCode](https://dzone.com/articles/introduction-to-java-bytecode) 左耳朵耗子课程推荐
+
+[IBM:Java bytecode](https://www.ibm.com/developerworks/library/it-haggar_bytecode/index.html)
