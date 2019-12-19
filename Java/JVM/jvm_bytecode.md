@@ -43,11 +43,13 @@ The data types defined by the JVM are:
 A JVM stack is composed of frames, each pushed onto the stack when a method is invoked and popped from the stack when the method completes (either by returning normally or by throwing an exception). Each frame further consists of:
 > JVM 堆栈由帧组成，当一个方法被调用时，会推送帧到堆栈中，当方法执行完成，会从堆栈中推出(正常返回或是抛出异常)。帧包含了:
 
-+ An array of local variables, indexed from 0 to its length minus 1. The length is computed by the compiler. 
++ An array of local variables, indexed from 0 to its length minus 1. The length is computed by the compiler.
 A local variable can hold a value of any type, except long and double values, which occupy two local variables.
 
-> 一个局部数组，索引是从0到长度-1.这个长度通过计算编译。
-> 局部变量可以存储任何类型的值，除了`long`和`double`，因为他们需要两个局部变量
+> 一个局部数组，索引是从0到长度-1.这个长度通过计算编译(在编译时确定)  
+> 局部变量可以存储任何类型的值，除了`long`和`double`，因为他们需要两个局部变量  
+> array of local variables be called local variable table  
+> array of local variables 保存方法的参数和局部变量值
 
 + An operand stack used to store intermediate values that would act as operands for instructions, or to push arguments to method invocations.
 
