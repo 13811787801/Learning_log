@@ -1,5 +1,8 @@
 # 安装 Kubernetes
 
+> homebrew 官网 [https://brew.sh/](https://brew.sh/)
+
+
 `yum install -y kubelet kubeadm kubectl` # centos安装工具
 
 > kubeadm：用于初始化 Kubernetes 集群
@@ -19,3 +22,9 @@
 3. 移动文件到Path中 `sudo mv ./kubectl /usr/local/bin/kubectl`
 
 4. 查看版本信息 `kubectl version`
+
+### Install minikube
+
+1. 下载二进制文件 并赋予可执行权利
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
+  && chmod +x minikube
