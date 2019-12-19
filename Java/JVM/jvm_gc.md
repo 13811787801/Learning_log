@@ -1,1 +1,1 @@
-# gc
+# JVM Garbage Collection
