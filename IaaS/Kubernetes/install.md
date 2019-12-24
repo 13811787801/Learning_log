@@ -25,6 +25,10 @@
 
 ### Install minikube
 
-1. 下载二进制文件 并赋予可执行权利
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
-  && chmod +x minikube
+> minikube 是一个可以在本地轻松运行 Kubernetes 的工具。Minikube 会在您的笔记本电脑中的虚拟机上运行一个单节点的 Kubernetes 集群，以便用户对 Kubernetes 进行试用或者在之上进行 Kubernetes 的日常开发。
+
+1. brew安装minikube `brew install minikube`
+
+2. 虚拟管理系统 `brew install hyperkit`
+
+3. 启动 minikube start --vm-driver=hyperkit
