@@ -20,7 +20,7 @@
 This option Prints additional information like stack size, number of locals and arguments for methods.  
 此选项打印其他信息，例如堆栈大小，局部数和方法的参数。
 
-## jmap 
+## jmap
 
 主要用于打印指定Java进程(或核心文件、远程调试服务器)的共享对象内存映射或堆内存细节
 

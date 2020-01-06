@@ -7,7 +7,7 @@
 
 ## 短语是主语的情况
 
-1. [表示同位关系] eg:the city of Rome罗马市
+1. [表示同位关系] eg:the city of Rome 罗马市
 2. [表示性质、内容 、状况等] eg:a look of pity令人哀怜的神色
 3. [表示在...方面] eg:be quick of eye 眼快
 
