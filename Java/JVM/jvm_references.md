@@ -11,6 +11,8 @@
 
 ## TLAB (Thread Local Allocation Buffer)
 
+这个技术是用于解决多线程竞争堆内存分配问题的，核心原理是对分配一些连续的内存空间
+
 [浅析java中的TLAB](https://www.jianshu.com/p/8be816cbb5ed)
 国内分析TLAB
 
